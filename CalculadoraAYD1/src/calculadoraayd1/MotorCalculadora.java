@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package calculadoraayd1;
-
+import calculadoraayd1.operaciones.Multiplicacion;
 import calculadoraayd1.operaciones.Operacion;
 import calculadoraayd1.util.ValidadorEntrada;
 import java.util.HashMap;
@@ -31,6 +31,7 @@ public class MotorCalculadora {
      */
     private void registrarOperaciones() {
         //operaciones.put(1, new Suma());
+        operaciones.put(3, new Multiplicacion());
 
     }
 
@@ -104,6 +105,7 @@ public class MotorCalculadora {
     private void mostrarMenu() {
         System.out.println("********CALCULADORA AYD1********");
         //System.out.println("1. Suma");
+        System.out.println("3. Multiplicacion");
         System.out.println("5. Salir");
         System.out.print("Seleccione una opcion: ");
 
