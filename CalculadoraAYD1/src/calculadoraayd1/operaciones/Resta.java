@@ -1,5 +1,6 @@
 package calculadoraayd1.operaciones;
 
+// Clase que implementa la operación de resta
 public class Resta implements Operacion {
 
     // Implementación del método calcular para la operación de resta
