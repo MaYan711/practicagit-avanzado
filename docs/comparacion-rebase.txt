@@ -1,1 +1,3 @@
 Practica para comparar el historial generado con git rebase.
+
+Este cambio representa el segundo avance de la rama.
