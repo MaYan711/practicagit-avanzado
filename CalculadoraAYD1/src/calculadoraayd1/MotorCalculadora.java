@@ -63,6 +63,11 @@ public class MotorCalculadora {
             return;
         }
 
+        if (opcion == 6) {
+            ejecutando = true;
+            return;
+        }
+
         Operacion operacion = operaciones.get(opcion);
         if (operacion != null) {
             ejecutarOperacion(operacion);
