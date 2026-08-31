@@ -10,7 +10,7 @@ Usuario github: dxRony
 
 2.
 Nombre: Mario Raul Yancor Ocaña 
-Correo github: marioyancro11@gmail,com
+Correo github: marioyancor11@gmail.com
 Usuario github: MaYan711
 
 3.
