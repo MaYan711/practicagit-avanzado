@@ -1,0 +1,1 @@
+Practica para comparar el historial generado con git rebase.
