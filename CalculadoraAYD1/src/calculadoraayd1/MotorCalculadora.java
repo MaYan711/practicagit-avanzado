@@ -31,7 +31,7 @@ public class MotorCalculadora {
      */
     private void registrarOperaciones() {
         //operaciones.put(1, new Suma());
-
+        //operaciones.put(1, new Resta());
     }
 
     /**
