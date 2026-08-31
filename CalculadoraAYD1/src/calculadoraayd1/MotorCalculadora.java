@@ -5,6 +5,7 @@
 package calculadoraayd1;
 
 import calculadoraayd1.operaciones.Operacion;
+import calculadoraayd1.operaciones.Division;
 import calculadoraayd1.util.ValidadorEntrada;
 import java.util.HashMap;
 import java.util.Map;
@@ -31,6 +32,7 @@ public class MotorCalculadora {
      */
     private void registrarOperaciones() {
         //operaciones.put(1, new Suma());
+        operaciones.put(4, new Division());
 
     }
 
@@ -104,6 +106,7 @@ public class MotorCalculadora {
     private void mostrarMenu() {
         System.out.println("********CALCULADORA AYD1********");
         //System.out.println("1. Suma");
+        System.out.println("4. Division");
         System.out.println("5. Salir");
         System.out.print("Seleccione una opcion: ");
 
