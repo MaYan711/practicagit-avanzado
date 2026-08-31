@@ -111,7 +111,7 @@ public class MotorCalculadora {
      * muestra el menu principal
      */
     private void mostrarMenu() {
-        System.out.println("********CALCULADORA AYD1********");
+        System.out.println("*** CALCULADORA AYD1 ***");
         //System.out.println("1. Suma");
         System.out.println("5. Salir");
         System.out.print("Seleccione una opcion: ");
