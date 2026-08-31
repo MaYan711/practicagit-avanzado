@@ -1,1 +1,3 @@
 Primer avance de la practica de recuperacion con git reflog.
+
+Trabajo importante de Mario y Kenny que debe recuperarse con git reflog.
