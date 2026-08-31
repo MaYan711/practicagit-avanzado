@@ -1,0 +1,19 @@
+# Archivos temporales
+*.tmp
+*.log
+*.bak
+
+# Dependencias y artefactos locales
+node_modules/
+build/
+dist/
+target/
+
+# Configuración local
+*.local
+.env
+.env.*
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
