@@ -63,10 +63,14 @@ public class MotorCalculadora {
             return;
         }
 
-        if (opcion == 6) {
+        // Resolviendo el escenario 2 de la persona A, se comenta el código
+        /*if (opcion == 6) {
             ejecutando = true;
+        // Persona A - Escenario 2
+        if (opcion  == 7) {
+            ejecutando = false;
             return;
-        }
+        }*/
 
         Operacion operacion = operaciones.get(opcion);
         if (operacion != null) {
